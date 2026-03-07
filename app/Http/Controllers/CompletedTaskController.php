@@ -4,12 +4,8 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\TaskRegisterPostRequest;
 use Illuminate\Support\Facades\Auth;
-use App\Models\Task as TaskModel;
-use Illuminate\Support\Facades\DB;
 use App\Models\CompletedTask as CompletedTaskModel;
-
 
 class CompletedTaskController extends Controller
 {

@@ -73,7 +73,7 @@ protected function getListBuilder()
         }
 
         // タスク登録成功
-        $request->session()->flash('front.task_register_succes', true);
+        $request->session()->flash('front.task_register_success', true);
 
         // リダイレクト
         return redirect('/task/list');
